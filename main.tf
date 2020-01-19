@@ -39,6 +39,7 @@ resource "google_compute_route" "route-igw" {
   name         = "route-igw"
   dest_range   = "${var.igw}"
   network      = "${var.network}-vpc"
+  depends_on    = [google_compute_network.vpc]
   next_hop_ip = "${var.hop}"
   priority     = "${var.priority}"
 }
