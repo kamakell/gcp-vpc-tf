@@ -1,0 +1,17 @@
+variable "region" {}
+variable "gcp_project" {}
+#variable "credentials" {}
+variable "network" {}
+variable "subnet-1" {}
+variable "ip_cidr_range_subnet-1" {}
+variable "pods_ip_cidr_range" {}
+variable "services_ip_cidr_range" {}
+variable "frontend_ip_cidr_range" {}
+variable "subnet-2" {}
+variable "ip_cidr_range_subnet-2" {}
+variable "subnet-3" {}
+variable "ip_cidr_range_subnet-3" {}
+variable "subnet-4" {}
+variable "ip_cidr_range_subnet-4" {}
+variable "subnet-5" {}
+variable "ip_cidr_range_subnet-5" {}
